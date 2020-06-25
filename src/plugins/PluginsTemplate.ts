@@ -3,7 +3,10 @@
  */
 
 
-// tslint:disable-next-line: no-empty-interface
+import { IEOPlugin, IEOPluginState } from './ieo';
+
 export interface PluginsState {
+    ieo: IEOPluginState;
 }
 
+export const pluginsInstances = { ieo: IEOPlugin };
