@@ -1,0 +1,30 @@
+HTTP/2 201
+access-control-allow-origin: *
+access-control-allow-methods: GET, POST, PUT, PATCH, DELETE
+access-control-allow-headers: Origin, X-Requested-With, Content-Type, Accept, Authorization
+Access-Control-Expose-Headers: total
+Total: 60
+
+[
+    {
+        "id": 1,
+        "name": "Peatio Bitfinex",
+        "driver": "Engine driver",
+        "uid": "IDD40BD7AB48",
+        "state": "active"
+    },
+    {
+        "id": 2,
+        "name": "Peatio Ranger",
+        "driver": "Engine driver",
+        "uid": "ID2000000002",
+        "state": "active"
+    },
+    {
+        "id": 3,
+        "name": "Peatio Bitfinex",
+        "driver": "Engine driver",
+        "uid": "IDD40BD7AB48",
+        "state": "active"
+    }
+]

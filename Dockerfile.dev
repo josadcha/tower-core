@@ -1,0 +1,15 @@
+FROM node:10 AS builder
+
+USER node
+
+WORKDIR /home/node
+
+COPY package.json yarn.lock ./
+
+RUN yarn install
+
+COPY . .
+
+CMD ["yarn", "start"]
+
+EXPOSE 3000

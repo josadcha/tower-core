@@ -1,0 +1,27 @@
+HTTP/2 201
+access-control-allow-origin: *
+access-control-allow-methods: GET, POST, PUT, PATCH, DELETE
+access-control-allow-headers: Origin, X-Requested-With, Content-Type, Accept, Authorization
+Access-Control-Expose-Headers: total
+Total: 37
+
+{
+    "id": 37,
+    "name": "BITGO LTC DEPOSIT WALLET",
+    "kind": "deposit",
+    "currency": "ltc",
+    "address": "Qacko8KqmW8CXtiJMT3LrbLUMJbSJbLb6h",
+    "gateway": "bitgo",
+    "nsig": 1,
+    "max_balance": "0.0",
+    "blockchain_key": "btc-testnet",
+    "status": "active",
+    "settings": {
+        "uri": "http://express:8080/api/v2/",
+        "access_token": "v2xf6f2b8debed9e64607145d8cfa12a436f71ac0a88a3a03b6a42292569d05f1b7",
+        "testnet": "true",
+        "wallet_id": "5e4bd9e3a6bb3a4006b92e9eb2932afd"
+    },
+    "created_at": "2020-02-27T08:07:52+01:00",
+    "updated_at": "2020-02-27T08:10:38+01:00"
+}

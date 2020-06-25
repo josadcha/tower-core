@@ -1,0 +1,29 @@
+HTTP/2 201
+access-control-allow-origin: *
+access-control-allow-methods: GET, POST, PUT, PATCH, DELETE
+access-control-allow-headers: Origin, X-Requested-With, Content-Type, Accept, Authorization
+Access-Control-Expose-Headers: total
+Total: 52
+
+[
+    {
+        "email":"sarima5305@mailop7.com",
+        "uid":"ID7A104B37CB",
+        "role":"member",
+        "level":1,
+        "otp":false,
+        "state":"active",
+        "referral_uid":null,
+        "data":null
+    },
+    {
+        "email":"john@barong.io",
+        "uid":"ID7A104B37CB",
+        "role":"member",
+        "level":1,
+        "otp":false,
+        "state":"active",
+        "referral_uid":null,
+        "data":null
+    }
+]
